@@ -1,0 +1,246 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+p {
+	margin-bottom: 0px;
+	font-size: 14px;
+	color: #666666;
+	line-height: 30px;
+}
+a {
+	text-decoration: none!important;
+}
+ul {
+	padding: 0;
+	margin: 22px 0px;
+	list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 22px 0px;
+}
+
+a.filled-button {
+	background-color: rgb(36 106 175) ;
+	color: #fff;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 12px 30px;
+	border-radius: 30px;
+	display: inline-block;
+	transition: all 0.3s;
+}
+
+a.filled-button:hover {
+	background-color: #fff;
+	color: rgb(36 106 175) ;
+}
+
+a.border-button {
+	background-color: transparent;
+	color: #fff;
+	border: 2px solid #fff;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 10px 28px;
+	border-radius: 30px;
+	display: inline-block;
+	transition: all 0.3s;
+}
+
+a.border-button:hover {
+	background-color: #fff;
+	color: rgb(94 149 203) ;
+}
+
+.section-heading {
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.section-heading h2 {
+	font-size: 36px;
+	font-weight: 600;
+	color: #1e1e1e;
+}
+
+.section-heading em {
+	font-style: normal;
+	color: rgb(94 149 203) ;
+}
+
+.section-heading span {
+	display: block;
+	margin-top: 15px;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #666;
+	letter-spacing: 1px;
+}
+
+/* Footer Style */
+
+footer {
+	background-color: #232323;
+	padding: 80px 0px;
+	color: #fff;
+}
+footer img{
+	width:145px;
+	height: 60px;
+	margin: -19px;
+}
+
+footer p {
+	color: #fff;
+}
+
+footer ul.social-icons {
+	margin-top: 25px;
+}
+
+footer ul.social-icons li {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+footer ul.social-icons li:last-child {
+	margin-right: 0px;
+}
+
+footer ul.social-icons li a {
+	width: 34px;
+	height: 34px;
+	display: inline-block;
+	line-height: 34px;
+	text-align: center;
+	background-color: #fff;
+	color: #232323;
+	border-radius: 50%;
+	transition: all 0.3s;
+}
+
+footer ul.social-icons li a:hover {
+	background-color: rgb(36 106 175) ;
+}
+
+footer ul.menu-list li {
+	margin-bottom: 13px;
+}
+
+footer ul.menu-list li:last-child {
+	margin-bottom: 0px;
+}
+
+footer ul.menu-list li a {
+	font-size: 14px;
+	color: #fff;
+	transition: all 0.3s;
+}
+
+footer ul.menu-list li a:hover {
+	color:rgb(36 106 175) ;
+}
+
+footer .contact-form input {
+	border-radius: 20px;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	padding: 0px 15px;
+	color: #aaa!important;
+	background-color: #343434;
+	font-size: 13px;
+	text-transform: none;
+	box-shadow: none;
+	border: none;
+	margin-bottom: 15px;
+}
+
+footer .contact-form input:focus {
+	outline: none;
+	box-shadow: none;
+	border: none;
+	background-color: #343434;
+}
+
+footer .contact-form textarea {
+	border-radius: 20px;
+	height: 120px;
+	max-height: 200px;
+	min-height: 120px;
+	display: inline-block;
+	padding: 15px;
+	color: #aaa!important;
+	background-color: #343434;
+	font-size: 13px;
+	text-transform: none;
+	box-shadow: none;
+	border: none;
+	margin-bottom: 15px;
+}
+
+footer .contact-form textarea:focus {
+	outline: none;
+	box-shadow: none;
+	border: none;
+	background-color: #343434;
+}
+
+footer .contact-form ::-webkit-input-placeholder { /* Edge */
+  color: #aaa;
+}
+footer .contact-form :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #aaa;
+}
+footer .contact-form ::placeholder {
+  color: #aaa;
+}
+
+footer .contact-form button.filled-button {
+	color: #fff;
+	background-color: rgb(36 106 175) !important;
+	border: none;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 12px 30px;
+	border-radius: 30px;
+	display: inline-block;
+	transition: all 0.3s;
+	outline: none;
+	box-shadow: none;
+	text-shadow: none;
+	cursor: pointer;
+}
+
+footer .contact-form button.filled-button:hover {
+	background-color: #fff !important;
+	color: rgb(36 106 175) !important;
+}
+
+
+
+/* Sub-footer Style */
+
+.sub-footer {
+	background-color: #343434;
+	text-align: center;
+	padding: 25px 0px;
+}
+
+.sub-footer p {
+	color: #fff;
+	font-weight: 300;
+	letter-spacing: 0.5px;
+}
+
+.sub-footer a {
+	color: #fff;
+}
